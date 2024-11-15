@@ -1,2 +1,2 @@
 # game-for-salmon
-this is my first game!
+# try to get all the endings!!
