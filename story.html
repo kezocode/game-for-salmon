@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Game</title>
+    <link rel="stylesheet" href="storyg.css">
+</head>
+
+<body>
+    <div id="endingsCounter">Endings Reached: 0/23</div>
+    <div class="container">
+        <h1 id="storyPrompt">What's your name?</h1>
+        <ul id="messageList"></ul>
+        <input id="userInput" type="text" placeholder="Type and press enter">
+        <div id="buttonContainer" style="display: none;"></div>
+    </div>
+
+    <div id="endingsModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <h2>Endings You've Reached</h2>
+            <ul id="endingsList"></ul>
+        </div>
+    </div>
+
+    <script src="storyg.js"></script>
+</body>
+
+</html>
